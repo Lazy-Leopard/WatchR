@@ -1,5 +1,3 @@
-#GroundBreakers
-
 ## Member Details
 
 IIT2019221 - Divyansh Rai 

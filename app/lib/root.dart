@@ -1,8 +1,7 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:osint/home.dart';
-import 'package:osint/authentication/login.dart';
+import 'package:osint/screens/auth/auth_scree.dart';
+import 'package:osint/searchAndHome/home.dart';
+import 'package:osint/model/loading.dart';
 import 'package:osint/services/sharedPreferences.dart';
 
 class Root extends StatefulWidget {
@@ -12,27 +11,36 @@ class Root extends StatefulWidget {
 
 class _RootState extends State<Root> {
   bool signedIn = false;
+  bool loading = false;
   Future<void> checkStatus() async {
     String uid = await SharedFunctions.getUserUid();
-    if (uid != null)
-      signedIn = true;
-    else
+    if (uid != null) {
+      setState(() {
+        signedIn = true;
+      });
+    } else
       signedIn = false;
+    setState(() {
+      loading = true;
+    });
   }
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     checkStatus();
   }
 
   @override
   Widget build(BuildContext context) {
-    if (signedIn) {
-      return Home();
+    if (loading == false) {
+      return Loading();
     } else {
-      return Login();
+      if (signedIn) {
+        return Home();
+      } else {
+        return AuthScreen();
+      }
     }
   }
 }

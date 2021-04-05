@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:osint/home.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:osint/config/palette.dart';
 import 'package:osint/root.dart';
 
 void main() async {
@@ -15,7 +16,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: GoogleFonts.muliTextTheme(),
+        accentColor: Palette.darkOrange,
+        appBarTheme: const AppBarTheme(
+            brightness: Brightness.dark, color: Palette.darkBlue),
+        backgroundColor: Colors.white,
+        scaffoldBackgroundColor: Color(0xffFFF7EB),
       ),
       home: Root(),
     );

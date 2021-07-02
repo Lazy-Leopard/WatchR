@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/lazyp4nd4/WatchR">
-    <img src="assets/WatchRlogo.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Lazy-Leopard/WatchR">
+    <img src="app/assets/WatchRlogo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">WatchR</h3>

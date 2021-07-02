@@ -147,9 +147,10 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Shourya - [@Shourya](https://www.linkedin.com/in/shourya-3b43a41a5/) - shouryak95@gmail.com
-Divyansh - (@Divyansh)(https://twitter.com/DLazyLeopard) - divyansh2509@gmail.com
-
+Shourya - [@Shourya](https://www.linkedin.com/in/shourya-3b43a41a5/) - shouryak95@gmail.com <br>
+Divyansh - [@Divyansh](https://twitter.com/DLazyLeopard) - divyansh2509@gmail.com <br>
+Prince - [@Prince](https://www.linkedin.com/in/prince-kumar-gupta-b069051b6/) - iit2019223@iiita.ac.in <br>
+Suhaib - [@Suhaib](https://www.linkedin.com/in/suhaib-khan-89260b216/) - iib2019039@iiita.ac.in <br>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

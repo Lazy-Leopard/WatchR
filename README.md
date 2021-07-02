@@ -1,11 +1,5 @@
 # WatchR - Mobile OSINT Tool
 
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
